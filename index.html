@@ -4,20 +4,39 @@
 		<meta charset="utf-8">
 		<title>PHP Programming Basics!</title>
 		<style media="screen">
+
 			body {
-				background-color:#333;
-				color:#eee;
-				font-family:verdana;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
 			}
 			.message {
-				margin:30px;
-				background-color:yellow;
-				padding:10px;
-				display:inline-block;
-				color:#333;
+			  background: linear-gradient(225deg, #ffabab, #ffdaab, #ddffab, #abe4ff, #d9abff);
+			  background-size: 300% 300%;
+			  box-sizing: border-box;
+			  display: table;
+			  height: 100vh;
+			  margin: 0;
+			  position: relative;
+			  width: 100vw;
+			  -webkit-animation: Rainbow 25s ease infinite;
+			  -moz-animation: Rainbow 25s ease infinite;
+			  animation: Rainbow 25s ease infinite;
 			}
+
+			@-webkit-keyframes Rainbow {
+			  0% {
+			    background-position: 94% 0%; }
+			  50% {
+			    background-position: 7% 100%; }
+			  100% {
+			    background-position: 94% 0%; } }
+
+
 		</style>
-hello
+<div class='message'>
+hi
+<div>
 	</head>
 	<body>
 
